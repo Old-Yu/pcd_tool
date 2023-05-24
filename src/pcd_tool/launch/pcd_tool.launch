@@ -1,8 +1,8 @@
 <launch>
   <param name="output_frame_id" value = "map" />           
   <param name="output_pointcloud_topic" value = "/output_point" />
-  <param name="input_pcd_path" value = "/home/eco/catkin_ws_pcd/pcd/test.pcd" />
-  <param name="output_pcd_path" value = "/home/eco/catkin_ws_pcd/pcd/output.pcd" />
+  <param name="input_pcd_path" value = "/home/sn/pcd_tool/pcd/test.pcd" />
+  <param name="output_pcd_path" value = "/home/sn/pcd_tool/pcd/output.pcd" />
 
   <param name="crop_box_filter_enable" value = "true" />
   <param name="voxel_grid_filter_enable" value = "true" />
