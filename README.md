@@ -8,5 +8,13 @@ mkdir catkin_ws
 cd catkin_ws
 git clone https://github.com/shaoniandujianyiqingqiu/pcd_tool.git
 catkin_make
+
+# PCD_TOOL
+source devel/setup.bash
 roslaunch pcd_tool pcd_tool.launch
+
+# LIDAR_DYNAMIC_ADJUSTMENT
+source devel/setup.bash
+rosrun lidar_dynamic_adjustment lidar_dynamic_adjustment_node 
+rosrun rqt_reconfigure rqt_reconfigure
 ```
